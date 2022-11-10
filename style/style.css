@@ -78,7 +78,7 @@ p, a {
 header {
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 2;
 }
 
 .header {
@@ -206,7 +206,7 @@ header {
     width: 1171px;
     margin: 0 auto;
     display: flex;
-    padding-bottom: 415px;
+    padding-bottom: 412px;
 }
 
 .section01-blok__left {
@@ -221,18 +221,19 @@ header {
 
 .section01-blok__left>p {
     width: 442px;
-    margin: 34px 0 42px;
+    margin: 25px 0 49px;
 }
 
 .section01-blok__left h2 {
     letter-spacing: -0.07em;
+    width: 214px;
 }
 
 .section01-blok__left-text {
     display: flex;
 }
 .section01-blok__left-text-01 .section01-text-small {
-    margin-bottom: 34px;
+    margin-bottom: 24px;
 }
 
 .section01-blok__left-text .section01-text-big {
@@ -241,22 +242,22 @@ header {
     text-transform: uppercase;
     color: #E3B873;
     font-family: 'Yeseva One';
-    margin-bottom: 9px;
+    margin-bottom: 4px;
 }
 
 .section01-blok__left-text-02 .section01-text-small {
-    margin-bottom: 61px;
+    margin-bottom: 50px;
 }
 
 .section01-blok__left-text-02  {
-    margin-left: 77px;
+    margin-left: 67px;
 }
 
 .section01-blok__left-nav {
     display: flex;
     justify-content: space-between;
     width: 205px;
-    margin-top: 18px;
+    margin-top: 31px;
 }
 
 .circle {
@@ -324,7 +325,7 @@ header {
 
 .section02-wrapper {
     width: 817px;
-    margin: -324px auto 148px;
+    margin: -324px auto 66px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -385,7 +386,7 @@ header {
     background: #E3B873;
     width: 55px;
     height: 1.5px;
-    margin: 0 auto 34px;
+    margin: 0 auto 26px;
 }
 
 .section02-wrapper p {
@@ -394,7 +395,7 @@ header {
     line-height: 37px;
     text-align: center;
     color: #363636;
-    margin-bottom: 91px;
+    margin-bottom: 83px;
 }
 
 .section02-forms {
@@ -525,16 +526,17 @@ header {
 
 .section03-block-content ul {
     width: 267px;
-    margin: 0 29px 0px 34px;
+    margin: 0 23px 0px 34px;
     padding-top: 25px;
     font-size: 18px;
     line-height: 25px;
     color: #363636;
     font-family: 'Yeseva One';
+    padding-bottom: 40px;
 }
 
 .section03-block-content li:first-child {
-    margin-top: 13px;
+    margin-top: 7px;
 }
 
 .section03-block-content li {
@@ -543,12 +545,14 @@ header {
     line-height: 27px;
     color: #959595;
     font-family: 'Nunito Sans';
-    margin-left: 15px;
+    margin-left: 14px;
 }
 
 .section03-block-btn {
-    padding: 17px 21px;
-    margin-top: 23px;
+    margin-top: -24px;
+    width: 228px;
+    height: 54px;
+    font-size: 18px;
 }
 
 .section003 {
@@ -582,7 +586,7 @@ header {
 }
 
 .section04-left {
-    width: 574px;
+    width: 590px;
     height: 588px;
     background-image: url(../img/back02.png);
     background-size: cover;
@@ -594,11 +598,11 @@ header {
 .section04-left-block {
     display: flex;
     align-items: center;
-    margin-left: 230px;
+    margin-left: 218px;
 }
 
 .section04-left-block__01 {
-    margin-top: 50px;
+    margin-top: 57px;
 }
 
 .section04-left-block p {
@@ -623,7 +627,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 17px;
+    margin-right: 6px;
 }
 
 .section04-right-content {
@@ -634,7 +638,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 180px;
+}
+
+.section04-right {
+    margin-top: 96px;
 }
 
 .section04-titlle {
@@ -1041,11 +1049,11 @@ footer .header-btn {
         display: none;
     }
     .header-logo {
-        margin: 23px 0 24px;
+        margin: 23px 10% 24px 0;
     }
     .header-wrapper {
         width: 375px;
-        justify-content: space-around;
+        justify-content: center;
     }
     .own-wrapper, .own-container {
         height: 521px;
